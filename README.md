@@ -1,0 +1,1 @@
+# Project Page for [NewtonGen](https://arxiv.org/abs/2509.21309)

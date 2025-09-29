@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="description" content="NewtonGen: Physics-Consistent and Controllable Text-to-Video Generation via Neural Newtonian Dynamics">
+  <meta name="keywords" content="Text-to-Video Generation, Physics Consistent, Physics Controllable, Diffusion Model">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NewtonGen</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
+  <link rel="stylesheet" href="./static/bulma.min.css">
+  <link rel="stylesheet" href="./static/bulma-carousel.min.css">
+  
+  <link rel="stylesheet" href="./static/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/academicons.min.css">
+  <link rel="stylesheet" href="./static/index.css">
+
+  <script src="./static/jquery.min.js"></script>
+  <script defer="" src="./static/fontawesome.all.min.js"></script>
+  <script src="./static/bulma-carousel.min.js"></script>
+  <script src="./static/bulma-slider.min.js"></script>
+  <script src="./static/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            <span style="color: rgb(240, 0, 20);">N</span><span style="color: rgb(210, 5, 40);">e</span><span style="color: rgb(180, 10, 65);">w</span><span style="color: rgb(150, 10, 90);">t</span><span style="color: rgb(130, 15, 120);">o</span><span style="color: rgb(120, 25, 140);">n</span><span style="color: rgb(100, 35, 160);">G</span><span style="color: rgb(85, 40, 180);">e</span><span style="color: rgb(63, 5, 210);">n</span>
+          </h1>
+          <h3 class="title is-3 publication-title">Physics-Consistent and Controllable Text-to-Video Generation via Neural Newtonian Dynamics</h3>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://yuanyuspace.cn/about/">Yu Yuan</a><sup>1</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://xijun-w.github.io/">Xijun Wang</a><sup>1</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://tharindu-nirmal.github.io/">Tharindu Wickremasinghe</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/zeeshan-nadir">Zeeshan Nadir</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://engineering.purdue.edu/ChanGroup/people.html">Bole Ma</a><sup>1</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://engineering.purdue.edu/ChanGroup/stanleychan.html">Stanley H. Chan</a><sup>1</sup>,</span>
+            </span>
+          </div>
+
+
+
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Purdue<sup>1</sup>, Samsung Research America<sup>2</sup>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="has-text-weight-bold"></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2509.21309" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/pandayuanyu/NewtonGen" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <span class="link-block">
+              <a href="https://huggingface.co/spaces/pandaphd/generative_photography"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face Logo" style="width:24px; height:24px;">
+                </span>
+                <span>Demo (soon)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        <span class="has-text-weight-bold" style="color: #8C1515">TL;DR:</span>
+        <span class="has-text-weight-bold">
+          <i>
+          NewtonGen leverages Neural Newtonian Dynamics to learn general latent dynamics, enabling physically aware and controllable Text-to-Video generation.
+          </i>
+        </span>
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered">
+      <div class="column is-half has-text-centered">
+        <div class="publication-image">
+          <img src="static/images/teaser_a.gif" alt="Prompt" width="90%">
+        </div>
+      </div>
+      <div class="column is-half has-text-centered">
+        <div class="publication-image">
+          <img src="static/images/teaser_b.gif" alt="Teaser" width="80%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<section class="hero teaser">
+  <div class="container is-max-widescreen">
+    <div class="hero-body">
+      <div class="content has-text-justified">
+        <h3 id="video-title" class="video-title has-text-centered">General Comparisons on Different Dynamics</h3>
+        <br/>
+        <div class="motion-selector">
+          <div class="buttons has-addons is-centered">
+            <button class="button is-light" onclick="changeMotion('Uniform Motion', ['./static/videos/motions/Uniform_Motion/our.mp4', './static/videos/motions/Uniform_Motion/Sora.mp4', './static/videos/motions/Uniform_Motion/PhysT2V.mp4', './static/videos/motions/Uniform_Motion/CogVideoX.mp4', './static/videos/motions/Uniform_Motion/Wan.mp4', './static/videos/motions/Uniform_Motion/Veo3.mp4'])">Uniform Motion</button>
+            <button class="button is-light" onclick="changeMotion('Acceleration', ['./static/videos/motions/Acceleration/our.mp4', './static/videos/motions/Acceleration/Sora.mp4', './static/videos/motions/Acceleration/PhysT2V.mp4', './static/videos/motions/Acceleration/CogVideoX.mp4', './static/videos/motions/Acceleration/Wan.mp4', './static/videos/motions/Acceleration/Veo3.mp4'])">Acceleration</button>
+            <button class="button is-light" onclick="changeMotion('Deceleration', ['./static/videos/motions/Deceleration/our.mp4', './static/videos/motions/Deceleration/Sora.mp4', './static/videos/motions/Deceleration/PhysT2V.mp4', './static/videos/motions/Deceleration/CogVideoX.mp4', './static/videos/motions/Deceleration/Wan.mp4', './static/videos/motions/Deceleration/Veo3.mp4'])">Deceleration</button>
+            <button class="button is-light" onclick="changeMotion('Parabolic Motion', ['./static/videos/motions/Parabolic_Motion/our.mp4', './static/videos/motions/Parabolic_Motion/Sora.mp4', './static/videos/motions/Parabolic_Motion/PhysT2V.mp4', './static/videos/motions/Parabolic_Motion/CogVideoX.mp4', './static/videos/motions/Parabolic_Motion/Wan.mp4', './static/videos/motions/Parabolic_Motion/Veo3.mp4'])">Parabolic Motion</button>
+            <button class="button is-light" onclick="changeMotion('3D Motion', ['./static/videos/motions/3D_Motion/our.mp4', './static/videos/motions/3D_Motion/Sora.mp4', './static/videos/motions/3D_Motion/PhysT2V.mp4', './static/videos/motions/3D_Motion/CogVideoX.mp4', './static/videos/motions/3D_Motion/Wan.mp4', './static/videos/motions/3D_Motion/Veo3.mp4'])">3D Motion</button>
+            <button class="button is-light" onclick="changeMotion('Slope Sliding', ['./static/videos/motions/Slope_Sliding/our.mp4', './static/videos/motions/Slope_Sliding/Sora.mp4', './static/videos/motions/Slope_Sliding/PhysT2V.mp4', './static/videos/motions/Slope_Sliding/CogVideoX.mp4', './static/videos/motions/Slope_Sliding/Wan.mp4', './static/videos/motions/Slope_Sliding/Veo3.mp4'])">Slope Sliding</button>
+            <button class="button is-light" onclick="changeMotion('Circular Motion', ['./static/videos/motions/Circular_Motion/our.mp4', './static/videos/motions/Circular_Motion/Sora.mp4', './static/videos/motions/Circular_Motion/PhysT2V.mp4', './static/videos/motions/Circular_Motion/CogVideoX.mp4', './static/videos/motions/Circular_Motion/Wan.mp4', './static/videos/motions/Circular_Motion/Veo3.mp4'])">Circular Motion</button>
+            <button class="button is-light" onclick="changeMotion('Rotation', ['./static/videos/motions/Rotation/our.mp4', './static/videos/motions/Rotation/Sora.mp4', './static/videos/motions/Rotation/PhysT2V.mp4', './static/videos/motions/Rotation/CogVideoX.mp4', './static/videos/motions/Rotation/Wan.mp4', './static/videos/motions/Rotation/Veo3.mp4'])">Rotation</button>
+            <button class="button is-light" onclick="changeMotion('Parabolic Motion with Rotation', ['./static/videos/motions/Parabolic_Motion_with_Rotation/our.mp4', './static/videos/motions/Parabolic_Motion_with_Rotation/Sora.mp4', './static/videos/motions/Parabolic_Motion_with_Rotation/PhysT2V.mp4', './static/videos/motions/Parabolic_Motion_with_Rotation/CogVideoX.mp4', './static/videos/motions/Parabolic_Motion_with_Rotation/Wan.mp4', './static/videos/motions/Parabolic_Motion_with_Rotation/Veo3.mp4'])">Parabolic Motion with Rotation</button>
+            <button class="button is-light" onclick="changeMotion('Damped Oscillation', ['./static/videos/motions/Damped_Oscillation/our.mp4', './static/videos/motions/Damped_Oscillation/Sora.mp4', './static/videos/motions/Damped_Oscillation/PhysT2V.mp4', './static/videos/motions/Damped_Oscillation/CogVideoX.mp4', './static/videos/motions/Damped_Oscillation/Wan.mp4', './static/videos/motions/Damped_Oscillation/Veo3.mp4'])">Damped Oscillation</button>
+            <button class="button is-light" onclick="changeMotion('Size Changing', ['./static/videos/motions/Size_Changing/our.mp4', './static/videos/motions/Size_Changing/Sora.mp4', './static/videos/motions/Size_Changing/PhysT2V.mp4', './static/videos/motions/Size_Changing/CogVideoX.mp4', './static/videos/motions/Size_Changing/Wan.mp4', './static/videos/motions/Size_Changing/Veo3.mp4'])">Size Changing</button>
+            <button class="button is-light" onclick="changeMotion('Deformation', ['./static/videos/motions/Deformation/our.mp4', './static/videos/motions/Deformation/Sora.mp4', './static/videos/motions/Deformation/PhysT2V.mp4', './static/videos/motions/Deformation/CogVideoX.mp4', './static/videos/motions/Deformation/Wan.mp4', './static/videos/motions/Deformation/Veo3.mp4'])">Deformation</button>
+          </div>
+        </div>
+        <br/>
+        <div id="motion-video" class="video-container">
+          <h4 class="video-title"></h4>
+          <div class="video-wrapper">
+            <div style="width: 30%; float: left; text-align: center; margin: 0 10px;">
+              <h6 class="video-title">NewtonGen</h6>
+              <video id="motion-video-1" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 30%; float: left; text-align: center; margin: 0 10px;">
+              <h6 class="video-title">Sora</h6>
+              <video id="motion-video-2" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 30%; float: left; text-align: center; margin: 0 10px;">
+              <h6 class="video-title">PhysT2V</h6>
+              <video id="motion-video-3" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 30%; float: left; text-align: center; margin: 0 10px;">
+              <h6 class="video-title"><br/>CogVideoX-5B</h6>
+              <video id="motion-video-4" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 30%; float: left; text-align: center; margin: 0 10px;">
+              <h6 class="video-title"><br/>Wan2.2</h6>
+              <video id="motion-video-5" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 30%; float: left; text-align: center; margin: 0 10px;">
+              <h6 class="video-title"><br/>Veo3</h6>
+              <video id="motion-video-6" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+          </div>  
+        </div>
+
+      <br/>
+       <br/>
+
+        <h3 id="video-title" class="video-title has-text-centered">Parameter Controllability Offered by NewtonGen</h3>
+        <br/>
+        <div class="para-selector">
+          <div class="buttons has-addons is-centered">
+            <button class="button is-light" onclick="changePara('Para #1', ['./static/videos/paras/set_a_prompt7.mp4', './static/videos/paras/set_b_prompt7.mp4', './static/videos/paras/set_e_prompt7.mp4'])">Only Change Physical Conditions</button>
+            <button class="button is-light" onclick="changePara('Para #2', ['./static/videos/paras/set_b_prompt2.mp4', './static/videos/paras/set_b_prompt5.mp4', './static/videos/paras/set_b_prompt6.mp4'])">Only Change Scene Description</button>
+          </div>
+        </div>
+        <br/>
+        <div id="para-video" class="video-container">
+          <h4 id="video-title" class="video-title"></h4>
+          <div class="video-wrapper">
+            <div style="width: 30%; float: left; text-align: center; margin: 0 10px;">
+              <h6 id="video-title" class="video-title"></h6>
+              <video id="para-video-1" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 30%; float: left; text-align: center; margin: 0 10px;">
+              <h6 id="video-title" class="video-title"></h6>
+              <video id="para-video-2" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 30%; float: left; text-align: center; margin: 0 10px;">
+              <h6 id="video-title" class="video-title"></h6>
+              <video id="para-video-3" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+          </div> 
+        </div>
+      <br/>
+      
+
+ <br/>
+ <br/>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">How NewtonGen Works?</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/framework.png" alt="framework" style="width: 90%;">
+          <p>
+            Two high-level ideas:<br/>
+            (1) Incorporating Physical Dynamics into Data-driven Video Generation: Latent Dynamics Guidance + Pre-trained Video Generator<br/>
+            (2) Modeling and Learning the Dynamics in a General Physics-Informed Neural ODE: Neural Newtonian Dynamics (NND)
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<br/>
+
+<br/>
+
+<section class="hero teaser">
+  <div class="container is-max-widescreen">
+    <div class="hero-body">
+      <div class="content has-text-justified">
+        <h3 id="video-title" class="video-title has-text-centered">More Videos by NewtonGen</h3>
+        <br/>
+        <div class="physics-selector">
+          <div class="buttons has-addons is-centered">
+            <button class="button is-light" onclick="changePhysics('Uniform Motion', ['./static/videos/more_results/uniform_motion_1.mp4', './static/videos/more_results/uniform_motion_2.mp4', './static/videos/more_results/uniform_motion_3.mp4', './static/videos/more_results/uniform_motion_4.mp4', './static/videos/more_results/uniform_motion_5.mp4'])">Uniform Motion</button>
+            <button class="button is-light" onclick="changePhysics('Acceleration', ['./static/videos/more_results/acceleration_1.mp4', './static/videos/more_results/acceleration_2.mp4', './static/videos/more_results/acceleration_3.mp4', './static/videos/more_results/acceleration_4.mp4', './static/videos/more_results/acceleration_5.mp4'])">Acceleration</button>
+            <button class="button is-light" onclick="changePhysics('Deceleration', ['./static/videos/more_results/deceleration_1.mp4', './static/videos/more_results/deceleration_2.mp4', './static/videos/more_results/deceleration_3.mp4', './static/videos/more_results/deceleration_4.mp4', './static/videos/more_results/deceleration_5.mp4'])">Deceleration</button>
+            <button class="button is-light" onclick="changePhysics('Parabolic Motion', ['./static/videos/more_results/parabolic_motion_1.mp4', './static/videos/more_results/parabolic_motion_2.mp4', './static/videos/more_results/parabolic_motion_3.mp4', './static/videos/more_results/parabolic_motion_4.mp4', './static/videos/more_results/parabolic_motion_5.mp4'])">Parabolic Motion</button>
+            <button class="button is-light" onclick="changePhysics('3D Motion', ['./static/videos/more_results/3D_move_1.mp4', './static/videos/more_results/3D_move_2.mp4', './static/videos/more_results/3D_move_3.mp4', './static/videos/more_results/3D_move_4.mp4', './static/videos/more_results/3D_move_5.mp4'])">3D Motion</button>
+            <button class="button is-light" onclick="changePhysics('Slope Sliding', ['./static/videos/more_results/slope_sliding_1.mp4', './static/videos/more_results/slope_sliding_2.mp4', './static/videos/more_results/slope_sliding_3.mp4', './static/videos/more_results/slope_sliding_4.mp4', './static/videos/more_results/slope_sliding_5.mp4'])">Slope Sliding</button>
+            <button class="button is-light" onclick="changePhysics('Circular Motion', ['./static/videos/more_results/circular_motion_1.mp4', './static/videos/more_results/circular_motion_2.mp4', './static/videos/more_results/circular_motion_3.mp4', './static/videos/more_results/circular_motion_4.mp4', './static/videos/more_results/circular_motion_5.mp4'])">Circular Motion</button>
+            <button class="button is-light" onclick="changePhysics('Rotation', ['./static/videos/more_results/rotation_1.mp4', './static/videos/more_results/rotation_2.mp4', './static/videos/more_results/rotation_3.mp4', './static/videos/more_results/rotation_4.mp4', './static/videos/more_results/rotation_5.mp4'])">Rotation</button>
+            <button class="button is-light" onclick="changePhysics('Parabolic Motion with Rotation', ['./static/videos/more_results/parabolic_motion_with_rotation_1.mp4', './static/videos/more_results/parabolic_motion_with_rotation_2.mp4', './static/videos/more_results/parabolic_motion_with_rotation_3.mp4', './static/videos/more_results/parabolic_motion_with_rotation_4.mp4', './static/videos/more_results/parabolic_motion_with_rotation_5.mp4'])">Parabolic Motion with Rotation</button>
+            <button class="button is-light" onclick="changePhysics('Damped Oscillation', ['./static/videos/more_results/damped_oscillation_1.mp4', './static/videos/more_results/damped_oscillation_2.mp4', './static/videos/more_results/damped_oscillation_3.mp4', './static/videos/more_results/damped_oscillation_4.mp4', './static/videos/more_results/damped_oscillation_5.mp4'])">Damped Oscillation</button>
+            <button class="button is-light" onclick="changePhysics('Size Changing', ['./static/videos/more_results/size_changing_1.mp4', './static/videos/more_results/size_changing_2.mp4', './static/videos/more_results/size_changing_3.mp4', './static/videos/more_results/size_changing_4.mp4', './static/videos/more_results/size_changing_5.mp4'])">Size Changing</button>
+            <button class="button is-light" onclick="changePhysics('Deformation', ['./static/videos/more_results/deformation_1.mp4', './static/videos/more_results/deformation_2.mp4', './static/videos/more_results/deformation_3.mp4', './static/videos/more_results/deformation_4.mp4', './static/videos/more_results/deformation_5.mp4'])">Deformation</button>
+         </div>
+        </div>
+        <br/>
+        <div id="physics-video" class="video-container">
+          <h4 class="video-title"></h4>
+          <div class="video-wrapper">
+            <div style="width: 19.2%; float: left; text-align: center; margin: 0 2px;">
+              <h6 class="video-title"></h6>
+              <video id="physics-video-1" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 19.2%; float: left; text-align: center; margin: 0 2px;">
+              <h6 class="video-title"></h6>
+              <video id="physics-video-2" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 19.2%; float: left; text-align: center; margin: 0 2px;">
+              <h6 class="video-title"></h6>
+              <video id="physics-video-3" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 19.2%; float: left; text-align: center; margin: 0 2px;">
+              <h6 class="video-title"></h6>
+              <video id="physics-video-4" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+            <div style="width: 19.2%; float: left; text-align: center; margin: 0 2px;">
+              <h6 class="video-title"></h6>
+              <video id="physics-video-5" autoplay loop muted controls>
+                <source src="" type="video/mp4">
+              </video>
+            </div>
+          </div>  
+        </div>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{Yuan_2025_NewtonGen,
+  title={NewtonGen: Physics-Consistent and Controllable Text-to-Video Generation via Neural Newtonian Dynamics},
+  author={Yuan, Yu and Wang, Xijun and Wickremasinghe, Tharindu and Nadir, Zeeshan and Ma, Bole and Chan, Stanley H.},
+  journal={arXiv preprint arXiv: 2509.21309},
+  year={2025}
+}</code></pre>
+  </div>
+</section>
+
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Built with <a
+                href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> and <a
+                href="https://adaptable-world-model.github.io/">AdaWorld</a> templates—thanks for their nice jobs!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
